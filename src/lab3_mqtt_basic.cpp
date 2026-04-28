@@ -10,13 +10,13 @@ const char* ssid = "Wokwi-GUEST";
 const char* password = "";
 
 // MQTT Broker settings
-const char* mqtt_broker = "<test.mosquitto.org>";  // Free public MQTT broker
+const char* mqtt_broker = "mqtt.iotserver.uz";  
 const int mqtt_port = 1883;
-const char* mqtt_username = "<username>";  // username given in the telegram group
-const char* mqtt_password = "<password>";  // password given in the telegram group
+const char* mqtt_username = "userTTPU"; 
+const char* mqtt_password = "mqttpass"; 
 
-const char* mqtt_topic_pub = "ttpu/iot/test/out";   // Topic to publish
-const char* mqtt_topic_sub = "ttpu/iot/test/in";    // Topic to subscribe
+const char* mqtt_topic_pub = "ttpu/iot26/abror/out"; 
+const char* mqtt_topic_sub = "ttpu/iot26/abror/in"; 
 
 
 WiFiClient espClient;
